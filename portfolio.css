@@ -25,7 +25,10 @@ nav {
 }
 
 /* body */
-
+body {
+  background-color: black;
+  color: antiquewhite;
+}
 /* Section */
 
 #projects {

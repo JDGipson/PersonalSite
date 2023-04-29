@@ -1,73 +1,68 @@
-body{
-    background-color: rgb(114, 3, 3)
+body {
+  background-color: rgb(114, 3, 3);
 }
 
-h3 {color:rgb(153, 133, 66)}
+h3 {
+  color: rgb(153, 133, 66);
+}
 
-p {color: rgb(2, 16, 78);
-    font-size: 22px;
+p {
+  color: rgb(2, 16, 78);
+  font-size: 22px;
 }
 
 /* Top */
 
-
-#intro 
-{ 
-    color: rgb(153, 133, 66);
-    display: block;
-    border: 3px dotted black;
-    width: 50%;
-    margin-left:auto;
-    margin-right:auto;
-    padding:2px;
-    text-align: center;
-
+#intro {
+  color: rgb(153, 133, 66);
+  display: block;
+  border: 3px dotted black;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2px;
+  text-align: center;
 }
 
 /* Navbar */
-nav {background-color: black;
-    height:5rem;
-
+nav {
+  background-color: black;
+  height: 5rem;
 }
-
-
 
 /* Image */
-.center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width:200px;
-    height: 200px;
-
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
 }
 
-
-/* hyperlink */
+/* hyperlinks */
 #workHistory {
-
-    color:white;
-    font-size: 20px;
-    float:right;
-
+  color: white;
+  font-size: 20px;
 }
+
+#portfolio {
+  color: white;
+  font-size: 20px;
+  padding-left: 12px;
+}
+
 /* Start of body */
-#CoreValue{
-font-size: 30px;
-
+#CoreValue {
+  font-size: 30px;
 }
-
 
 /* Section */
 
-
 section {
-
-    margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 
-span {color: rgb(8, 21, 78);
-    font-size: 22px;
-} 
-
-
+span {
+  color: rgb(8, 21, 78);
+  font-size: 22px;
+}

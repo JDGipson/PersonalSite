@@ -7,7 +7,7 @@ h3 {
 }
 
 p {
-  color: rgb(2, 16, 78);
+  color: rgb(3, 11, 47);
   font-size: 22px;
 }
 
@@ -28,15 +28,13 @@ p {
 nav {
   background-color: black;
   height: 5rem;
+  margin: 0 3rem;
 }
-
-/* Image */
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 200px;
-  height: 200px;
+#nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
 }
 
 /* hyperlinks */
@@ -51,6 +49,16 @@ nav {
   padding-left: 12px;
 }
 
+/* Image */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  padding-top: 10px;
+}
+
 /* Start of body */
 #CoreValue {
   font-size: 30px;
@@ -59,10 +67,46 @@ nav {
 /* Section */
 
 section {
+  padding: 5rem;
+  margin-bottom: 3rem;
+}
+
+#flx2 {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+#CoreValue {
+  display: flex;
+  justify-content: space-around;
+}
+
+#WSE {
+  display: flex;
+  justify-content: center;
+}
+
+/* second image */
+#img2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 250px;
+  width: 400px;
+}
+
+/* Last "section" */
+#employer {
+  display: flex;
+  justify-content: center;
+}
+
+#p1 {
   margin-bottom: 3rem;
 }
 
 span {
-  color: rgb(8, 21, 78);
+  color: rgb(3, 11, 47);
   font-size: 22px;
 }

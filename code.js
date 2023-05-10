@@ -69,13 +69,3 @@
 //   }
 // }
 // console.log(evenOrOdd("33"));
-
-function budget(bounty, reward) {
-  if (bounty === 5000) {
-    return 3500;
-  } else if (bounty === 10000) {
-    return 7500;
-  }
-}
-
-console.log(budget(5000));

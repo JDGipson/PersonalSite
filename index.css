@@ -46,17 +46,17 @@ nav {
 
 /* Image */
 .center {
-  display: block;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 200px;
-  height: 200px;
-  padding-top: 10px;
+  width: 15rem;
+  height: 15rem;
+  padding-top: 1rem;
 }
 
 /* Start of body */
 #CoreValue {
-  font-size: 30px;
+  font-size: 1.2rem;
 }
 
 #aboutMe {
@@ -106,7 +106,7 @@ section {
 }
 p {
   color: rgb(3, 11, 47);
-  font-size: 22px;
+  font-size: 1.2rem;
   margin: 0;
   padding: 0;
 }

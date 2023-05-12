@@ -7,7 +7,7 @@ h1 {
 
 /* nav bar */
 nav {
-  background-color: black;
+  background-color: rgb(38, 38, 38);
   height: 5rem;
 }
 
@@ -21,38 +21,87 @@ nav {
 /* hyperlinks */
 #portfolio {
   color: white;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 #Home {
   color: white;
-  font-size: 20px;
-  padding-left: 12px;
+  font-size: 1.25rem;
+  padding-left: 1rem;
 }
 
 /* Body */
 
 body {
-  background-color: rgb(8, 61, 8);
-  color: whitesmoke;
+  background-image: linear-gradient(rgb(2, 13, 112), rgb(30, 109, 4));
+  color: white;
   padding: 5rem;
+  font-size: 1.8rem;
 }
 
 #div1 {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  font-size: 18px;
-  padding-top: 15px;
+  padding-top: 1.2rem;
 }
 
 #center {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 1.25rem;
 }
 
 /* Section */
+#workxp {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* border: 3px solid black; */
+  padding: 1%;
+}
 
-/* 1st p */
+.flex1 {
+  /* border: 2px solid rgb(202, 15, 15); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#p1flex {
+  display: flex;
+  /* border: 2px solid black; */
+  justify-content: center;
+}
+
+#headers {
+  display: flex;
+  /* border: 2px solid cyan; */
+
+  justify-content: space-around;
+}
+
+#flex2 {
+  display: flex;
+  flex-direction: row;
+  /* border: 2px solid grey; */
+  justify-content: space-between;
+}
+
+#mM {
+  /* border: 2px solid black; */
+  display: flex;
+  width: 24%;
+}
+
+#PK {
+  display: flex;
+  /* border: 2px solid purple; */
+  width: 24%;
+}
+
+#mV {
+  /* border: 2px solid black; */
+  display: flex;
+  width: 24%;
+}

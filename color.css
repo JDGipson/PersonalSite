@@ -1,9 +1,23 @@
 /* Title */
+
 #port {
   display: block;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+
+h1 {
+  display: block;
+  color: aliceblue;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
 }
 
 /* nav bar */
@@ -18,14 +32,26 @@ nav {
   align-items: center;
   justify-content: space-around;
 }
-/* hyperlinks */
 
+/* hyperlinks */
 #workHistory {
   color: white;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 #Home {
+  color: white;
+  font-size: 1.25rem;
+  padding-left: 1rem;
+}
+
+#portfolio {
+  color: white;
+  font-size: 20px;
+  padding-left: 12px;
+}
+
+#contactme {
   color: white;
   font-size: 20px;
   padding-left: 12px;

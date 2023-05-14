@@ -44,6 +44,12 @@ nav {
   padding-left: 12px;
 }
 
+#contactme {
+  color: white;
+  font-size: 20px;
+  padding-left: 12px;
+}
+
 /* Image */
 .center {
   display: flex;

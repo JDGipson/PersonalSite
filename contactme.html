@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="color.css" />
+    <link rel="stylesheet" href="contactme.css" />
+  </head>
+
+  <h1>Jessie Gipson</h1>
+  <h3 class="title">Freelance Software Engineer</h3>
+
+  <nav id="nav">
+    <a id="Home" href="index.html">Home</a>
+    <a id="workHistory" href="index2.html">Work History</a>
+    <a id="portfolio" href="portfolio.html">Portfolio</a>
+  </nav>
+
+  <body>
+    <div class="greeting">
+      <h2>Contact Me</h2>
+    </div>
+    <div id="para1">
+      <p>
+        Thank you for taking an interest in my work! If you would like to hire
+        me for future projects, troubleshooting, site testing, or anything else,
+        please fill out the below form. I look forward to working with you!
+      </p>
+    </div>
+
+    <div class="parent-grid">
+      <div class="div1">
+        <form>
+          <label for="fname">First Name:</label>
+          <input type="text" id="fname" name="fname" />
+        </form>
+
+        <form>
+          <label for="lname">Last Name:</label>
+          <input type="text" id="lname" name="lname" />
+        </form>
+
+        <form>
+          <label for="Email">Email</label>
+          <input type="email" id="Email" name="Email" />
+        </form>
+      </div>
+
+      <div class="div2">
+        <form>
+          <label for="cname">Company Name(optional)</label>
+          <input type="text" id="cname" name="cname" />
+        </form>
+
+        <form>
+          <label for="phone"> Phone</label>
+          <input type="phone" id="phone" name="phone" />
+        </form>
+      </div>
+
+      <div class="div3">
+        <form action="#">
+          <label for="choices"> How can I help you?</label>
+          <select id="choices" name="choices">
+            <option value="choose">Choose Below</option>
+            <option value="Project">Project</option>
+            <option value="Troubleshooting">Troubleshooting</option>
+            <option value="Website Testing">Website Testing</option>
+            <option value="other">Other(Not listed above)</option>
+          </select>
+          <p>
+            If your option is not available please use the box below to describe
+            what you need.
+          </p>
+          Additional Information (Anything else you think I need to know)
+          <br />
+
+          <textarea name="message" rows="10" cols="30"></textarea>
+        </form>
+      </div>
+    </div>
+
+    <div id="submitbutton">
+      <button type="submit">Submit</button>
+    </div>
+
+    <br />
+
+    <div class="contimg">
+      <img class="codeimg" src="Pictures/Mycode.PNG" alt=" Diagram of Code" />
+    </div>
+  </body>
+</html>
